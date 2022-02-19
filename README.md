@@ -61,10 +61,10 @@ mod. Its name has to be the key of the faction, which can be checked in the tabl
 example, the folder name for The Golden Order has to be `wh2_dlc13_emp_golden_order`.
 
 Inside of these folders, you have to create new ones for each campaign key. The available factions are the Vortex and 
-the Inmortal Empires and the keys are also available at Dave. Finally, inside of it, you have to create a `missions.lua` 
+the Immortal Empires and the keys are also available at Dave. Finally, inside of it, you have to create a `missions.lua` 
 file where all the victory conditions are going to be placed.
 
-All in all, to add new victory conditions to The Golder Order Inmortal Empires campaign, you have to create these files:
+All in all, to add new victory conditions to The Golder Order Immortal Empires campaign, you have to create these files:
 
 * `script/campaign/mod/<your-mod-name>.lua`
 * `script/<your-mod-name>/wh2_dlc13_emp_golden_order/main_warhammer/missions.lua`
@@ -79,16 +79,30 @@ local missions = {
     [[
  		mission
 		{
-			victory_type vco_victory_type_long;
+			victory_type vco_victory_type_alternative_2_threat_elimination;
 			key wh_main_long_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
 				objective
 				{
-					type OWN_N_UNITS;
-					total 100;
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 2;
+					override_text mission_text_text_wh_main_objective_override_empire_sylvania;
+
+					province wh_main_eastern_sylvania;
+					province wh_main_western_sylvania;
 				}
+
+				objective
+                {
+                    type DESTROY_FACTION;
+
+                    faction wh_main_vmp_vampire_counts;
+                    faction wh_main_vmp_schwartzhafen;
+
+                    confederation_valid;
+                }
 
 				payload
 				{
@@ -102,11 +116,8 @@ local missions = {
 return missions;
 ```
 
-As the missions interfaces are available in the official docs and in the Assembly Kit, under the path
-`Steam\steamapps\common\Total War WARHAMMER III\assembly_kit\raw_data\EmpireDesignData\campaigns\main_warhammer\victory_objectives.txt`,
-the most interesting thing to discuss here are the `victory_type` possibilities. The possible values are
-`vco_victory_type_short`, `vco_victory_type_long`, `vco_victory_type_ultimate`, `vco_victory_type_economic`,
-`vco_victory_type_military` and `vco_victory_type_cultural`. It is important to understand that only one type of each
+As the missions interfaces are changing constantly, as I keep adding new options. You can find the list in this 
+framework under the path `src/db/victory_types_tables/vco`. It is important to understand that only one type of each
 can be available at the same time per faction, so, if you own multiple submods that add, for example, a Long Victory
 condition, one is going to override the other.
 
@@ -132,6 +143,6 @@ This project is licensed under the Apache License, Version 2.0 - see the [LICENS
 
 ## Acknowledgments
 
-* Special thanks to [Vandy](https://github.com/chadvandy) for its support during the development.
 * Special thanks to all the users that have supported the development economically.
-* Thanks to all the modders of the **Da Modding Den** Discord for they knowledge and they experience.
+* Special thanks to [Vandy](https://github.com/chadvandy) for its support during the development.
+* Thanks to all the modders of the **Da Modding Den** Discord for their knowledge and experience.

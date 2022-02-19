@@ -8,17 +8,6 @@ Use `Ctrl+F` to look for your question.
 
 Yes, they do.
 
-### Is this compatible with Steel Faith Overhaul?
-
-It is mean to be and tested to work together. However, I am not a user of SFO so perhaps some objectives are not
-achievable. Feel free to report any bug or suggestion to improve the compatibility.
-
-### Is this compatible with _[insert-mod]_?
-
-I am sorry, but I have not tested this together with all the other mods in the Workshop. The framework is mean to be
-reliable and compatible with almost anything, but there can be some collisions anywhere. I do not know. In any case,
-the first approach should be trying it before asking.
-
 ### Is this savegame compatible?
 
 Yes and no. Victory Conditions are stored in the save file, so adding the mod will not modify a started campaign. This
@@ -30,6 +19,17 @@ However, note that uninstalling the framework will break the game. This can not 
 load database data that does not exist anymore. In that case, if you want to play two campaigns at the same time, what
 you have to do is start one without the mod, saving, starting another one with the mod, saving, and playing both with
 the mod enabled.
+
+### Is this compatible with Steel Faith Overhaul?
+
+It is mean to be and tested to work together. However, I am not a user of SFO so perhaps some objectives are not
+achievable. Feel free to report any bug or suggestion to improve the compatibility.
+
+### Is this compatible with _[insert-mod]_?
+
+I am sorry, but I have not tested this together with all the other mods in the Workshop. The framework is mean to be
+reliable and compatible with almost anything, but there can be some collisions anywhere. I do not know. In any case,
+the first approach should be trying it before asking.
 
 ### Where can I report a bug?
 
@@ -56,7 +56,7 @@ Finally, if you want to support economically my job, feel free to donate via
 ### I have an amazing idea for a mod
 
 And I am sure that it is amazing and revolutionary. But I am, possibly, not the person that is going to follow that
-dream. I have a limited agenda and mod as a hobby, so, by default, I am not going to accept any request comming from
+dream. I have a limited agenda and mod as a hobby, so, by default, I am not going to accept any request coming from
 anyone. This is not a job for me.
 
 ## Framework
@@ -80,42 +80,6 @@ The changes introduced are available [here](https://github.com/msolefonte/vco/do
 
 Nope. They are kept the same than in vanilla. I know a lot of people will be happy with that addition, but I am not a
 player of them, so I am not going to spend weeks working in something I am not going to use.
-
-## Cultural Victory Submod
-
-### Where can I check the changes introduced?
-
-The changes introduced are available
-[here](https://github.com/msolefonte/vco-submod-cultural/blob/master/docs/README.md).
-
-### I am playing an horde faction but can not see the new victory conditions. Is that normal?
-
-Yes. Horde factions do not have Cultural, Economic or Military victory conditions available. There are multiple reasons,
-practical, technical and logical for it, so do not expect me to change it.
-
-## Economic Victory Submod
-
-### Where can I check the changes introduced?
-
-The changes introduced are available
-[here](https://github.com/msolefonte/vco-submod-economic/docs/README.md).
-
-### I am playing an horde faction but can not see the new victory conditions. Is that normal?
-
-Yes. Horde factions do not have Cultural, Economic or Military victory conditions available. There are multiple reasons,
-practical, technical and logical for it, so do not expect me to change it.
-
-## Military Victory Submod
-
-### Where can I check the changes introduced?
-
-The changes introduced are available
-[here](https://github.com/msolefonte/vco-submod-military/docs/README.md).
-
-### I am playing an horde faction but can not see the new victory conditions. Is that normal?
-
-Yes. Horde factions do not have Cultural, Economic or Military victory conditions available. There are multiple reasons,
-practical, technical and logical for it, so do not expect me to change it.
 
 ## Instant Victory Submod
 

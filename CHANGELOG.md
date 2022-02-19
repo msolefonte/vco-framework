@@ -34,4 +34,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.0.0] Update v2.0.0 - TBA
 
 - Added support for Total War: WARHAMMER III
-- Added changes in the API to simplify the submods
+- Added changes in the API to simplify submods
