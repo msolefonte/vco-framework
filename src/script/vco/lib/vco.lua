@@ -7,7 +7,7 @@ end
 function vco:trigger_faction_missions(mod_name, faction_key)
     local campaign_name = cm:get_campaign_name();
 
-    local status, missions = pcall(require, "script/"..mod_name.."/"..faction_key.."/"..campaign_name)
+    local status, missions = pcall(require, "script/"..mod_name.."/"..campaign_name.."/"..faction_key)
     if status then
         for _, mission in ipairs(missions) do
             if mission and mission ~= "" then

@@ -57,17 +57,17 @@ cm:add_first_tick_callback(function() vco:trigger_custom_missions("<your-mod-nam
 #### The factions folders
 
 Then, you have to create the folder `src/script/<your-mod-name>` and place there a folder for each faction you want to 
-mod. Its name has to be the key of the faction, which can be checked in the table `factions`, available at Dave. For 
-example, the folder name for The Golden Order has to be `wh2_dlc13_emp_golden_order`.
+mod. Inside that folder, create one new folder for each campaign you want to cover. The name has to be the campaign key.
+An example of this would be `main_warhammer` or `wh3_main_chaos`.
 
-Inside of these folders, you have to create new ones for each campaign key. The available factions are the Vortex and 
-the Immortal Empires and the keys are also available at Dave. Finally, inside of it, you have to create a `missions.lua` 
-file where all the victory conditions are going to be placed.
+Now, next folder name has to be the key of the faction, which can be checked in the table `factions`, available at Dave. 
+For example, the folder name for The Golden Order has to be `wh2_dlc13_emp_golden_order`. Finally, inside of it, you 
+have to create a `missions.lua` file where all the victory conditions are going to be placed.
 
 All in all, to add new victory conditions to The Golder Order Immortal Empires campaign, you have to create these files:
 
 * `script/campaign/mod/<your-mod-name>.lua`
-* `script/<your-mod-name>/wh2_dlc13_emp_golden_order/main_warhammer/missions.lua`
+* `script/<your-mod-name>/main_warhammer/wh2_dlc13_emp_golden_order/missions.lua`
 
 #### The objectives script
 
