@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0.0] Initial Commit - 07.14.2020
+## [1.0.0] Initial Commit - 14.07.2020
 
 - Initial commit
 
@@ -27,11 +27,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Minor fix
 
-## [1.2.3] Patch Update - 5.12.2020
+## [1.2.3] Update v1.2.3 - 5.12.2020
 
 - Add support for The Twisted & The Twilight DLC
 
-## [2.0.0] Update v2.0.0 - TBA
+## [2.0.0] Update v2.0.0 - 23.03.2022
 
 - Added support for Total War: WARHAMMER III
 - Added changes in the API to simplify submods

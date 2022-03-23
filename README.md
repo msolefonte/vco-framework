@@ -1,4 +1,8 @@
+<TAGS>
+
 # VCO2 Framework
+
+<TAGS>
 
 [Steam Workshop Mod Link](#)
 
@@ -49,7 +53,7 @@ Once decided, you have to create a script named `<your-mod-name>.lua` and place 
 The content of that script has to be the following one:
 
 ```lua
-local vco = require("script/vco/lib/vco")
+local vco = core:get_static_object("vco");
 
 cm:add_first_tick_callback(function() vco:trigger_custom_missions("<your-mod-name>") end);
 ```
@@ -144,5 +148,4 @@ This project is licensed under the Apache License, Version 2.0 - see the [LICENS
 ## Acknowledgments
 
 * Special thanks to all the users that have supported the development economically.
-* Special thanks to [Vandy](https://github.com/chadvandy) for its support during the development.
-* Thanks to all the modders of the **Da Modding Den** Discord for their knowledge and experience.
+* Special thanks to all the modders of the **Da Modding Den** Discord for their knowledge and experience.
