@@ -1,10 +1,10 @@
 <TAGS>
 
-# VCO2 Framework
+# Victory Conditions Overhaul - Framework
 
 <TAGS>
 
-[Steam Workshop Mod Link](#)
+[Steam Workshop Mod Link](https://steamcommunity.com/workshop/filedetails/?id=2789843350)
 
 Victory Conditions Overhaul framework mod for Total War: Warhammer III.
 
