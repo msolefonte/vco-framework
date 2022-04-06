@@ -1,8 +1,12 @@
-<TAGS>
+[![Steam Workshop Subscribers](https://img.shields.io/endpoint?style=for-the-badge&url=https%3A%2F%2Fshieldsio-steam-workshop.jross.me%2F2789843350%2Fsubscriptions-text)](https://steamcommunity.com/sharedfiles/filedetails/?id=2789843350)
+[![Steam Workshop Favorites](https://img.shields.io/endpoint?style=for-the-badge&url=https%3A%2F%2Fshieldsio-steam-workshop.jross.me%2F2789843350%2Ffavourites-text)](https://steamcommunity.com/sharedfiles/filedetails/?id=2789843350)
 
 # Victory Conditions Overhaul - Framework
 
-<TAGS>
+[![GitHub release](https://img.shields.io/github/release/msolefonte/vco-framework.svg?style=flat)](https://GitHub.com/msolefonte/vco-framework/releases/)
+[![Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dwolfylpdc%26type%3Dpatrons&style=flat)](https://www.patreon.com/wolfylpdc)
+[![GitHub license](https://img.shields.io/github/license/msolefonte/vco-framework?style=flat)](https://github.com/msolefonte/vco-framework/blob/master/LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 
 [Steam Workshop Mod Link](https://steamcommunity.com/workshop/filedetails/?id=2789843350)
 
