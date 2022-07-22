@@ -37,3 +37,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added changes in the API to simplify submods
 - Compatibility added with the Realms of Chaos submod
 - New routes introduced
+
+## [2.1.0] Update v2.1.0 - 22.07.2022
+
+- Add support for the Instant Victory submod
