@@ -42,7 +42,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Add support for the Instant Victory submod
 
-## [2.2.0] 22.07.2022
+## [2.1.1] 22.07.2022
 
 - Ported code from VCO Realms of Chaos to work towards unification
 - Technical
